@@ -1,0 +1,24 @@
+{
+    "ok":true,
+    "result":[{
+        "update_id":189024750,
+        "message":{
+            "message_id":2,
+            "from":{
+                "id":1056568886,
+                "is_bot":false,
+                "first_name":"Farhan",
+                "username":"Farhan272",
+                "language_code":"en"
+            },
+            "chat":{
+                "id":1056568886,
+                "first_name":"Farhan",
+                "username":"Farhan272",
+                "type":"private"
+            },
+            "date":1654596852,
+            "text":"hai"
+        }
+    }]
+}
