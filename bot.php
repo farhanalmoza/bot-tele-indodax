@@ -61,7 +61,31 @@ if (strpos($message, "/tampilkanDiagram") === 0) {
 
 if (strpos($message, "/diagram1") === 0) {
     $pesan = "Silakan pilih level yang ingin ditampilkan\n";
-    $pesan .= "\n/crash1";
+
+    $pesan .= "\n/crash1 - diagram level crash1";
+    $pesan .= "\n/crash2 - diagram level crash2";
+    $pesan .= "\n/wajar1 - diagram level wajar1";
+    $pesan .= "\n/wajar2 - diagram level wajar2";
+    $pesan .= "\n/recover1 - diagram level recover1";
+    $pesan .= "\n/recover2 - diagram level recover2";
+    $pesan .= "\n/moon2 - diagram level moon2";
+    $pesan .= "\n/supermoon1 - diagram level supermoon1";
+    $pesan .= "\n/supermoon2 - diagram level supermoon2";
+    $pesan .= "\n/sama - diagram level sama";
+    $pesan .= "\n/supercrash1 - diagram level supercrash1";
+    $pesan .= "\n/supercrash2 - diagram level supercrash2";
+    $pesan .= "\n/megacrash1 - diagram level megacrash1";
+    $pesan .= "\n/megacrash2 - diagram level megacrash2";
+    $pesan .= "\n/ultracrash1 - diagram level ultracrash1";
+    $pesan .= "\n/ultracrash2 - diagram level ultracrash2";
+    $pesan .= "\n/goldencrash1 - diagram level goldencrash1";
+    $pesan .= "\n/goldencrash2 - diagram level goldencrash2";
+    $pesan .= "\n/diamondcrash - diagram level diamondcrash";
+    $pesan .= "\n/megamoon1 - diagram level megamoon1";
+    $pesan .= "\n/megamoon2 - diagram level megamoon2";
+    $pesan .= "\n/ultramoon1 - diagram level ultramoon1";
+    $pesan .= "\n/ultramoon2 - diagram level ultramoon2";
+    $pesan .= "\n/goldenmoon1 - diagram level goldenmoon1";
 
     $pesan = urlencode($pesan);
     file_get_contents($path."/sendMessage?chat_id=".$chatId."&text=".$pesan);
@@ -69,7 +93,31 @@ if (strpos($message, "/diagram1") === 0) {
 
 if (strpos($message, "/diagram2") === 0) {
     $pesan = "Silakan pilih level yang ingin ditampilkan\n";
-    $pesan .= "\n/crash1Jenis";
+    
+    $pesan .= "\n/crash1jenis - diagram level crash1 berdasarkan jenisnya";
+    $pesan .= "\n/crash2jenis - diagram level crash2 berdasarkan jenisnya";
+    $pesan .= "\n/wajar1jenis - diagram level wajar1 berdasarkan jenisnya";
+    $pesan .= "\n/wajar2jenis - diagram level wajar2 berdasarkan jenisnya";
+    $pesan .= "\n/recover1jenis - diagram level recover1 berdasarkan jenisnya";
+    $pesan .= "\n/recover2jenis - diagram level recover2 berdasarkan jenisnya";
+    $pesan .= "\n/moon2jenis - diagram level moon2 berdasarkan jenisnya";
+    $pesan .= "\n/supermoon1jenis - diagram level supermoon1 berdasarkan jenisnya";
+    $pesan .= "\n/supermoon2jenis - diagram level supermoon2 berdasarkan jenisnya";
+    $pesan .= "\n/samajenis - diagram level sama berdasarkan jenisnya";
+    $pesan .= "\n/supercrash1jenis - diagram level supercrash1 berdasarkan jenisnya";
+    $pesan .= "\n/supercrash2jenis - diagram level supercrash2 berdasarkan jenisnya";
+    $pesan .= "\n/megacrash1jenis - diagram level megacrash1 berdasarkan jenisnya";
+    $pesan .= "\n/megacrash2jenis - diagram level megacrash2 berdasarkan jenisnya";
+    $pesan .= "\n/ultracrash1jenis - diagram level ultracrash1 berdasarkan jenisnya";
+    $pesan .= "\n/ultracrash2jenis - diagram level ultracrash2 berdasarkan jenisnya";
+    $pesan .= "\n/goldencrash1jenis - diagram level goldencrash1 berdasarkan jenisnya";
+    $pesan .= "\n/goldencrash2jenis - diagram level goldencrash2 berdasarkan jenisnya";
+    $pesan .= "\n/diamondcrashjenis - diagram level diamondcrash berdasarkan jenisnya";
+    $pesan .= "\n/megamoon1jenis - diagram level megamoon1 berdasarkan jenisnya";
+    $pesan .= "\n/megamoon2jenis - diagram level megamoon2 berdasarkan jenisnya";
+    $pesan .= "\n/ultramoon1jenis - diagram level ultramoon1 berdasarkan jenisnya";
+    $pesan .= "\n/ultramoon2jenis - diagram level ultramoon2 berdasarkan jenisnya";
+    $pesan .= "\n/goldenmoon1jenis - diagram level goldenmoon1 berdasarkan jenisnya";
 
     $pesan = urlencode($pesan);
     file_get_contents($path."/sendMessage?chat_id=".$chatId."&text=".$pesan);
